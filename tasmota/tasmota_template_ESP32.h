@@ -535,11 +535,11 @@ const uint16_t kGpioNiceList[] PROGMEM = {
   AGPIO(GPIO_MAX31855DO),     // MAX31855 Serial interface
 #endif
 #ifdef USE_MAX31865
-  GPIO_SSPI_MAX31865_CS1, //MAX31865 CS selectable pin 1
-  GPIO_SSPI_MAX31865_CS2, //MAX31865 CS selectable pin 2
-  GPIO_SSPI_MAX31865_CS3, //MAX31865 CS selectable pin 3
-  GPIO_SSPI_MAX31865_CS4, //MAX31865 CS selectable pin 4
-  GPIO_SSPI_MAX31865_CS5, //MAX31865 CS selectable pin 5
+  AGPIO(GPIO_SSPI_MAX31865_CS1), //MAX31865 CS selectable pin 1
+  AGPIO(GPIO_SSPI_MAX31865_CS2), //MAX31865 CS selectable pin 2
+  AGPIO(GPIO_SSPI_MAX31865_CS3), //MAX31865 CS selectable pin 3
+  AGPIO(GPIO_SSPI_MAX31865_CS4), //MAX31865 CS selectable pin 4
+  AGPIO(GPIO_SSPI_MAX31865_CS5), //MAX31865 CS selectable pin 5
 #endif
 #ifdef USE_HRE
   AGPIO(GPIO_HRE_CLOCK),
